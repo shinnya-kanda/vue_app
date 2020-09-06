@@ -12,7 +12,7 @@ export default new Vuex.Store({
         getCount:function(state){
             return state.count
         },
-        getMess:function(state){
+        getMessage:function(state){
             return state.message
         }
     }

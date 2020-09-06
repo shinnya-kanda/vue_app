@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <p>{{getM}}</p>
+    <p>{{messageGet}}</p>
     <p>{{count}}</p>
     <p>foo</p>
   </div>
@@ -19,8 +19,8 @@ export default {
     }
   },
   computed:{
-    getM:function(){
-      return this.$store.getters.getMess
+    messageGet:function(){
+      return this.$store.getters.getMessage
     },
     getCount:function(){
       return this.$store.getters.getCount
