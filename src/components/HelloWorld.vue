@@ -22,7 +22,7 @@ export default {
     getM:function(){
       return this.$store.getters.getMessage
     },
-    getC:function(){
+    getCount:function(){
       return this.$store.getters.getCount
     }
   }
