@@ -11,16 +11,24 @@ export default {
   name: 'HelloWorld',
   data(){
     return{
-      count:this.$store.state.count,
-      message:""
+      count:{},
+      message:{}
     }
   },
-  computed:{
+  beforeCreate:{
+    dataSet:async function(){
+      await this.messageGet();
+    },
+    countSet:async function(){
+      await this.getCount();
+    } 
+  },
+  methods:{
     messageGet:function(){
-      return this.$store.getters.getMessage
+      this.message = this.$store.getters.getMessage
     },
     getCount:function(){
-      return this.$store.getters.getCount
+      this.count = this.$store.getters.getCount
     }
   }
 }
