@@ -6,7 +6,7 @@ Vue.use(Vuex)
 export default new Vuex.Store({
     state:{
         count:10,
-        message:"hell0"
+        message:"hello"
     },
     getters:{
         getCount:function(){
