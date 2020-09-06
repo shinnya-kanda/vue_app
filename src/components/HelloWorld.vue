@@ -2,6 +2,7 @@
   <div class="hello">
     <p>{{getmessage}}</p>
     <p>{{count}}</p>
+    <p>foo</p>
   </div>
 </template>
 
