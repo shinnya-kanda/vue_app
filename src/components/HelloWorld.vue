@@ -11,8 +11,8 @@ export default {
   name: 'HelloWorld',
   data(){
     return{
-      count:"",
-      message:""
+      count:[],
+      message:[]
     }
   },
   created:{
