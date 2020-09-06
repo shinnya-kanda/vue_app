@@ -20,7 +20,7 @@ export default {
   },
   computed:{
     getM:function(){
-      return this.$store.getters.getMessage
+      return this.$store.getters.getMess
     },
     getCount:function(){
       return this.$store.getters.getCount
