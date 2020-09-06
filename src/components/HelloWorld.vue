@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <p>{{messageGet}}</p>
+    <p>{{count}}</p>
     <p>{{}}</p>
     <h1>hello</h1>
   </div>
