@@ -15,16 +15,10 @@ export default {
       message:[]
     }
   },
-  created:{
-    dataSet:async function(){
-      await this.messageGet();
-      console.log('data Set!');
+  async created(){
+    await this.messageGet();
+    await this.getCount();
     },
-    countSet:async function(){
-      await this.getCount();
-      console.log('countSet!');
-    } 
-  },
   methods:{
     messageGet:function(){
       this.message = this.$store.getters.getMessage
