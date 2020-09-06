@@ -9,11 +9,11 @@ export default new Vuex.Store({
         message:"hello"
     },
     getters:{
-        getCount:function(){
-            return this.state.count
+        getCount:function(state){
+            return state.count
         },
-        getMessage:function(){
-            return this.state.message
+        getMessage:function(state){
+            return state.message
         }
     }
 })
