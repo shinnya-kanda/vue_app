@@ -11,7 +11,7 @@ export default {
   name: 'HelloWorld',
   data(){
     return{
-      count:"1000",
+      count:this.$store.state.count,
       message:""
     }
   },
