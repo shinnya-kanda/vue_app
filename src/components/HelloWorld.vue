@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
     <p>{{messageGet}}</p>
-    <p>{{this.count}}</p>
+    <p>{{}}</p>
     <h1>hello</h1>
   </div>
 </template>
