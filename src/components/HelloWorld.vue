@@ -18,9 +18,11 @@ export default {
   created:{
     dataSet:async function(){
       await this.messageGet();
+      console.log('data Set!');
     },
     countSet:async function(){
       await this.getCount();
+      console.log('countSet!');
     } 
   },
   methods:{
