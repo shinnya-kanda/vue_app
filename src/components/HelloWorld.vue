@@ -1,6 +1,7 @@
 <template>
   <div class="hello">
-    <p>{{message}}</p>
+    <p>{{getmessage}}</p>
+    <p>{{count}}</p>
   </div>
 </template>
 
@@ -12,7 +13,7 @@ export default {
   },
   data(){
     return{
-      count:"",
+      count:"1000",
       message:""
     }
   },
