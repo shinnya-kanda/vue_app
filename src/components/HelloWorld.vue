@@ -15,7 +15,7 @@ export default {
       message:""
     }
   },
-  beforeCreate:{
+  created:{
     dataSet:async function(){
       await this.messageGet();
     },
