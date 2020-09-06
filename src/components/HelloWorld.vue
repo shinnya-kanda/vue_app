@@ -2,7 +2,7 @@
   <div class="hello">
     <p>{{messageGet}}</p>
     <p>{{count}}</p>
-    <p>foo</p>
+    <h1>hello</h1>
   </div>
 </template>
 
