@@ -22,9 +22,11 @@ export default {
   methods:{
     messageGet:function(){
       this.message = this.$store.getters.getMessage
+      console.log('get message!');
     },
     getCount:function(){
       this.count = this.$store.getters.getCount
+      console.log('get count!');
     }
   }
 }
