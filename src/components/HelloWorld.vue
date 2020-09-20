@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <div class="card">
+    <div class="box">
           <p>{{count}}</p>
           <p>{{message}}</p>
     </div>
@@ -50,10 +50,12 @@ li {
 a {
   color: #42b983;
 }
-.card {
+.hello{
   text-align: center;
-  width: 70px;
-  height: 45px;
-  background-color: rgb(105, 131, 122);
+}
+.box{
+  text-align: center;
+  width: 100px;
+  background-color: bisque;
 }
 </style>
