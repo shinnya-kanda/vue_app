@@ -50,7 +50,7 @@ li {
 a {
   color: #42b983;
 }
-.card{
+.card {
   flex: auto;
   width: 70px;
   height: 45px;
