@@ -51,6 +51,7 @@ a {
   color: #42b983;
 }
 .hello{
+  flex: auto;
   text-align: center;
 }
 .box{
