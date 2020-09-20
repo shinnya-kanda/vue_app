@@ -51,7 +51,7 @@ a {
   color: #42b983;
 }
 .card {
-  flex: auto;
+  text-align: center;
   width: 70px;
   height: 45px;
   background-color: aquamarine;
