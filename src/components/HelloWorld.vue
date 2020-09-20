@@ -1,7 +1,9 @@
 <template>
   <div class="hello">
-    <p>{{count}}</p>
-    <p>{{message}}</p>
+    <div class="card">
+          <p>{{count}}</p>
+          <p>{{message}}</p>
+    </div>
     <h1>hello</h1>
   </div>
 </template>
@@ -47,5 +49,11 @@ li {
 }
 a {
   color: #42b983;
+}
+.card{
+  flex: auto;
+  width: 70px;
+  height: 45px;
+  background-color: aquamarine;
 }
 </style>
