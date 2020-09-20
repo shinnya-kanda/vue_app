@@ -54,6 +54,6 @@ a {
   text-align: center;
   width: 70px;
   height: 45px;
-  background-color: aquamarine;
+  background-color: rgb(105, 131, 122);
 }
 </style>
