@@ -55,6 +55,7 @@ a {
   text-align: center;
 }
 .box{
+  margin: 0 auto;
   text-align: center;
   width: 100px;
   background-color: bisque;
