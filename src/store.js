@@ -5,6 +5,7 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
     state:{
+        input_data:[],
         count:10,
         message:"hello wrold"
     },
